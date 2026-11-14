@@ -1,0 +1,1 @@
+function e(e){let t=(e||``).replace(/\D/g,``);return t.startsWith(`00`)&&(t=t.slice(2)),t.length===11&&t.startsWith(`01`)&&(t=`88`+t),t}function t(t){let n=e(t);return n.length>=8&&n.length<=15}function n(t){return`${e(t)}@phone.timchat.app`}export{e as n,n as r,t};
